@@ -26,20 +26,22 @@ public class PostServlet extends HttpServlet {
         writer.println("<head>");
         writer.println("</head>");
         writer.println("<body>");
-        writer.println("<h1>");
-        writer.println("Hello");
-        writer.println("</h1>");
-        writer.println("<h1>");
-        writer.println("You reached the POST servlet");
-        writer.println("</h1>");
+
         if (name != null && !name.trim().isEmpty()) {
-            writer.println("	Welcome " + name + ".\r\n");
+            writer.println("<h1>");
+            writer.println("	Hello " + name + "\r\n");
             writer.println("	\r\n");
+            writer.println("</h1>");
         } else {
-            writer.println("	Welcome Guest\r\n");
+            writer.println("<h1>");
+            writer.println("	Hello Guest\r\n");
+            writer.println("</h1>");
         }
         writer.println("		</body>\r\n");
                 writer.println("</html>\r\n");
+        writer.println("<h1>");
+        writer.println("You reached the POST servlet");
+        writer.println("</h1>");
 
     }
 }
