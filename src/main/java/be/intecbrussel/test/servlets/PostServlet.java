@@ -37,11 +37,17 @@ public class PostServlet extends HttpServlet {
             writer.println("	Hello Guest\r\n");
             writer.println("</h1>");
         }
-        writer.println("		</body>\r\n");
-                writer.println("</html>\r\n");
         writer.println("<h1>");
         writer.println("You reached the POST servlet");
         writer.println("</h1>");
+        writer.println("<h2>");
+        writer.println("<a href='/testeen/getservlet'>Back to the GET Servlet</a>");
+        writer.println("</h2>");
+        writer.println("<form action=\"getservlet\">  \n" +
+                "<input type=\"submit\" value=\"back to GET Servlet\"/>  \n" +
+                "</form>  ");
+        writer.println("</body>");
+        writer.println("</html>");
 
     }
 }

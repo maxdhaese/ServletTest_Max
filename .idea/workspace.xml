@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd05b9b2-52b5-47c2-b255-2403196b6e9a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/intecbrussel/test/servlets/PostServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/intecbrussel/test/servlets/PostServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/be/intecbrussel/test/servlets/PostServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/be/intecbrussel/test/servlets/PostServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testeen.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/testeen.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/testeen/WEB-INF/classes/be/intecbrussel/test/servlets/PostServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/testeen/WEB-INF/classes/be/intecbrussel/test/servlets/PostServlet.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575275438293</updated>
-      <workItem from="1575275441055" duration="6628000" />
+      <workItem from="1575275441055" duration="8627000" />
     </task>
     <servers />
   </component>
